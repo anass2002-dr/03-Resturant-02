@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Resturant Anass</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <link rel="icon" href="assets/images/_logo.png" type="image/icon type">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="loader">
+    <div id="status"></div>
+  </div>
+  <!-- navbar -->
+  <div id="header">
+    <nav class="navbar navbar-expand-lg bg-dark bg-opacity-50" id="nav-bar">
+      <div class="container-fluid" id="parentnav">
+        <a class="navbar-brand" id="navbar-brand" href="#"><img src="assets/images/_logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="bi bi-list text-orange"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item p-2 ">
+              <a class="nav-link active_nav" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link" href="#menu">Menu</a>
+            </li>
+            <li class="nav-item p-2">                             
+              <a class="nav-link "href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link "href="#reservaion">Reservation</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link "href="#contact-us">Contact Us</a>
+            </li>
+            <li class="nav-item p-2">
+              <a class="nav-link position-relative" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="bi bi-cart"></i>
+                <span class="rounded-circle px-1" style="background-color: rgb(248, 116, 0)" id="span_shop">1</span>
+              </a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>   
+    <!-- home -->
+    <div id="content-header">
+        
+      <section id="home" class="container">
+        <div class="row" id="row_home">
+          <div class="col-lg-6 col-12 text-light d-block" id="para_home">
+            <div>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Voluptas, nihil odit ut nesciunt minima dolorum obcaecati iste
+             labore asperiores perferendis,
+              assumenda alias expedita? Impedit quibusdam laudantium possimus porro voluptatibus perferendis.
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+             Voluptas, nihil odit ut nesciunt minima dolorum obcaecati iste
+             labore asperiores perferendis.
+            </div>
+             <a href="#"class="btn bg-orange mt-4">Go To Menu
+              <i class="bi bi-arrow-right"></i>
+             </a>
+          </div>
+          <div class="col-lg-6 col-12" id="img_home">
+            <img src="assets/images/food3.jpg" class="img-thumbnail rounded-2 border-0 bg-transparent" alt="">
+          </div>
+        </div>
+      </section>
+      
+    </div>
+  </div>
+
+  <!-- about section -->
+  <section id="about">
+    <div class="container">
+      <h1 class="">About Us</h1>
+      <div class="" id="about-content">
+        <div class="w-75">
+          <span>Resturant Anass.....</span>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis similique quia ullam harum 
+          libero reiciendis reprehenderit hic ipsa necessitatibus magnam,
+           ut soluta a cum? Asperiores quia aperiam voluptate repudiandae quis.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis similique quia ullam harum 
+          libero reiciendis reprehenderit hic ipsa necessitatibus magnam,
+           ut soluta a cum? Asperiores quia aperiam voluptate repudiandae quis.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis similique quia ullam harum 
+          libero reiciendis reprehenderit hic ipsa necessitatibus magnam,
+           ut soluta a cum? Asperiores quia aperiam voluptate repudiandae quis.
+           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis similique quia ullam harum 
+          libero reiciendis reprehenderit hic ipsa necessitatibus magnam,
+           ut soluta a cum? Asperiores quia aperiam voluptate repudiandae quis.
+          </p>
+        </div>
+        <div class="" id="about-img">
+          <img src="assets/images/sp-menu.png" class="w-75" alt="">
+        </div>
+      </div>
+    </div>
+    
+  </section>
+    
+  <!-- menu section -->
+  <section id="menu" class="bg-dark">
+    <div class="container-fluid">
+      <h1>Our Menu</h1>
+      <div class="container">
+        <div class="row pt-4">
+          <div class="col-2 rounded-1 m-4 p-2 text-center" style="width: 200px; max-width:100%;" id="btn-category">Startes</div>
+          <div class="col-3 rounded-1 m-4 p-2 text-center" style="width: 200px; max-width:100%;" id="btn-category">Salads</div>
+          <div class="col-3 rounded-1 m-4 p-2 text-center" style="width: 200px; max-width:100%;" id="btn-category">Main Courser</div>
+          <div class="col-2 rounded-1 m-4 p-2 text-center" style="width: 200px; max-width:100%;" id="btn-category">Desserts</div>
+          <div class="col-2 rounded-1 m-4 p-2 text-center" style="width: 200px; max-width:100%;" id="btn-category">Drinks</div>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row p-4">
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class=" py-2 col-12">
+                      <img src="assets/images/gallery_10.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_01.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_03.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+          </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row p-4">
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_04.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_05.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_06.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <div class="row p-4">
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_07.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_08.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="rounded-2 m-4 p-4 bg-light" id="article-menu">
+                  <div class="row">
+                    <div class="py-2 col-12">
+                      <img src="assets/images/gallery_09.jpg" class="" id="img-menu" alt="">
+                    </div>
+                    <div class="py-4 col-12" style="border-top:4px black solid;">
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Illo ratione modi asperiores provident, explicabo porro dolores maiores odio.
+                      Alias perferendis assumenda deleniti et itaque quos deserunt magni consequuntur earum repellendus?
+                    </div>
+                    <div class="col-12">
+                      <button type="button" class="btn" id="btn-add-cart"> add to cart <i class="bi bi-cart-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="" id="prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="" id="next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section> 
+
+  <!-- gallery section -->
+   <section id="gallery" class="">
+    <div class="container">
+      <h1>Our Gallery</h1>
+      <div class="row row-gallery">
+        <div class="col-12 col-md-4">
+          <img src="assets/images/gallery_01.jpg" class="rounded-2" alt="">
+        </div>
+        <div class="col-12 col-md-8">
+          <img src="assets/images/resturant.jpg" class="rounded-2" height=" alt="">
+        </div>
+      </div>
+      <div class="row row-gallery">
+        <div class="col-12 col-md-4">
+          <img src="assets/images/gallery_02.jpg" class="rounded-2" alt="">
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="assets/images/gallery_03.jpg" class="rounded-2" height=" alt="">
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="assets/images/gallery_04.jpg" class="rounded-2" height=" alt="">
+        </div>
+      </div>
+      <div class="row row-gallery d-none">
+        <div class="col-12 col-md-8">
+          <img src="assets/images/gallery_01.jpg" class="rounded-2" alt="">
+        </div>
+        <div class="col-12 col-md-4">
+          <img src="assets/images/resturant.jpg" class="rounded-2" height=" alt="">
+        </div>
+      </div>
+      <div class="d-flex justify-content-center"><button type="button" id="btn-more" class="btn btn-light border-1 border-secondary m-2">Show more <i class="bi bi-chevron-down"></i></button></div>
+    </div>
+  </section>
+
+  <!-- Reservasion section -->
+  <section id="reservaion" class="bg-dark">
+    <div class="container-fluid pb-4">
+      <h1>Reservasion</h1>
+      <div class="container rounded-4 bg-opacity-50 bg-light">
+        <div class="row row-reservasion">
+          <div class="col-12 col-md-4">
+            <input type="date" name="" class="form-control border-btn" placeholder="Date" id="">
+          </div>
+          <div class="col-12 col-md-4">
+            <select name="" class="form-select border-btn" id="">
+              <option value="0" selected>Time*</option>
+              <option value="1">10:00 - 11:00</option>
+              <option value="2">11:00 - 12:00</option>
+              <option value="3">12:00 - 13:00</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-4">
+            <select name="" class="form-select border-btn" id="">
+              <option value="0" selected>Table*</option>
+              <option value="1">Table 1</option>
+              <option value="2">Table 2</option>
+              <option value="3">Table 3</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="row row-reservasion">
+          <div class="col-12 col-md-6">
+            <input type="text" name="" class="form-control border-btn bg-transparent text-light" placeholder="First Name*" id="">
+          </div>
+          <div class="col-12 col-md-6">
+            <input type="text" name="" class="form-control border-btn bg-transparent text-light" placeholder="Last Name*" id="">
+          </div>
+        </div>
+
+        <div class="row row-reservasion">
+          <div class="col-12">
+            <input type="text" name="" class="form-control border-btn bg-transparent text-light" placeholder="Email*" id="">
+          </div>
+
+        </div>
+
+        <div class="row row-reservasion">
+          <div class="col-12">
+            <input type="text" name="" class="form-control border-btn bg-transparent text-light" placeholder="Phone*" id="">
+          </div>
+
+        </div>
+      <div class="d-flex justify-content-end me-4"><input type="button" id="btn-more" value="Reserve" class="btn btn-light border-1 border-secondary m-2 bg-orange"></div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- contact-us section -->
+  <section id="contact-us" class="bg-dark">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <div class="row p-3">
+        <div class="col-12 col-lg-6 mt-3">
+          <div class="row">
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-telephone"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a target="_blank" href="https://api.whatsapp.com/send?phone=212652589175">+212 652589175</a>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-facebook"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a target="_blank" href="https://www.facebook.com/profile.php?id=100084156174019">Anass Dermaj</a>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-instagram"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a target="_blank" href="https://www.instagram.com/anassdermaj/">Anass Dermaj</a>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-linkedin"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a target="_blank" href="https://www.linkedin.com/in/anass-dermaj-34a212226/">Anass Dermaj</a>
+              </div>
+            </div>
+
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-at"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a href="mailto:anassdermaj163@gmail.com">AnassDermaj163@gmail.com</a>
+              </div>
+            </div>
+            <div class="col-12 d-flex p-3">
+              <div class="bg-orange rounded-circle" id="icon-contact">
+                <i class="bi bi-geo-alt-fill"></i>
+              </div>
+              <div class="ps-3 text-secondary" style="font-size:20px;">
+                <a target="_blank" href="https://www.google.com/maps/search/Av.+Moulay+Rachid,+Martil/@35.6203307,-5.2776469,16z/data=!3m1!4b1">Av. Moulay Rachid, Martil</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row border-btn p-3 rounded-3">
+            <div class="col-12 p-2">
+              <input type="email" name="" placeholder="Email" class="form-control input-contact border-btn bg-transparent text-light" id="">
+            </div>
+            <div class="col-12 p-2">
+              <textarea name="" placeholder="Messege"  class="form-control input-contact border-btn bg-transparent text-light" id="" cols="30" rows="10" style="resize: none;"></textarea>
+            </div>
+            <div class="col-12 p-2 d-flex justify-content-end me-4">
+              <input type="button" value="Send"  class="btn btn-border bg-orange">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- copyright section  -->
+  <section id="copyright" class="bg-orange">
+    <div class="p-5">
+      <p class="text-center" style="font-weight: bold">Copyright <span><i class="bi bi-c-circle-fill"></i></span> 2022 Created By Anass Dermaj</p>
+    </div>
+  </section>
+
+
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content" id="modal-cart">
+      <!-- {{-- <button type="button" class="btn-close p-2 icone-white" data-bs-dismiss="modal" aria-label="Close"><i class="bi bi-x-lg"></i></button> --}} -->
+      <div class="modal-body m-3" id="modal-body-cart">
+        <div class="container rounded-5 bg-modal-cart">
+          <div class="row">
+            <div class="col-12 col-lg-3">
+              <div class="row" id="items-select">
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn">
+                    <h3>Pizza</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4 active-btn-shoppe">
+                  <button type="button" class="btn">
+                    <h3 class="">Burger</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn">
+                    <h3>Salade</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn ">
+                    <h3>Tajin</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn ">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn ">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4">
+                  <button type="button" class="btn ">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4 border-0">
+                  <button type="button" class="btn">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4 border-0">
+                  <button type="button" class="btn">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+                <div class="col-lg-12 col-4 border-0">
+                  <button type="button" class="btn">
+                    <h3>Couscous</h3>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-3 quantity-price-parent">
+                <div>
+                  <h4>Quantity</h4>
+                  <input type="number" name="" class="form-control bg-transparent" value="1" id="">
+                </div>
+                <div>
+                  <h4>Quantity : <span>5</span></h4>
+                </div>
+                <div>
+                  <h4>Price : <span>50 </span>$</h4>
+                </div>
+                <div class="quantity-price-bottom">
+                  <h4>Total Quantity : <span>7</span> $</h4>
+                  <h4>Total Price : <span>200</span> $</h4>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 p-2">
+              <div class="row">
+                <div class="col-lg-6 col-12">
+                  <div class="row">
+                    <div class="col-12 m-1">
+                      <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="Name*" id="">
+                    </div>
+                    <div class="col-12 m-1">
+                      <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="Email*" id="">
+                    </div>
+                    <div class="col-12 m-1">
+                      <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="Phone*" id="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-12 mt-1">
+                  <textarea name="" placeholder="Adresse*"  class="form-control input-contact border-btn bg-transparent text-dark" id="" cols="30" rows="5" ></textarea>
+                </div>
+              </div>
+              <div class="row cart-img p-2">
+                <div class="col-12 col-lg-4 p-2">
+                  <button class="border-btn rounded-2">
+                    <img src="assets/images/visa_card.png" class="" alt="">
+                  </button>
+                </div>
+                <div class="col-12 col-lg-4 p-2">
+                  <button class="border-btn rounded-2">
+                    <img src="assets/images/MasterCard_Logo.svg.png" class="" alt="">
+                  </button>
+                </div>
+                <div class="col-12 col-lg-4 p-2">
+                  <button class="border-btn rounded-2">
+                    <img src="assets/images/paypal.png" class="" alt="">
+                  </button>
+                </div>
+              </div>
+              <div class="row p-3">
+                <div class="col-12 p-1">
+                  <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="0000 000 0000 0000 0000" id="">
+                </div>
+                <div class="col-12 p-2">
+                  <div class="row">
+                    <div class="col-12 col-lg-6 p-2">
+                      <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="MM/YY" id="">
+                    </div>
+                    <div class="col-12 col-lg-6 p-2">
+                      <input type="text" name="" class="form-control border-btn bg-transparent text-dark" placeholder="CVV" id="">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 p-2 d-flex justify-content-center">
+                  <input type="button" value="Pay Now" class="border-btn border-light rounded-3 btn-pay">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>  -->
+    </div>
+  </div>
+</div>
+      <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="assets/js/Bootstrap.bundle.min.js"></script>
+<script src="assets/js/MyJs.js"></script>
+<script>
+  var loader=document.getElementById("loader");
+  window.addEventListener('load',()=>{
+      loader.style.display="none";
+  });
+</script>
+</body>
+</html>
